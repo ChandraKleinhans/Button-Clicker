@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: monospace;
+}
+.container{
+    width: 50%;
+    margin-left: 300px;
+}
+.navBar{
+    background-color: rgb(204,204,204);
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+#links{
+    /* padding-top: 10px; */
+    vertical-align: middle;
+}
+#search{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+#dojonary{
+    display: inline-block;
+}
+#login{
+    background-color: rgb(43,120,228);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+.contentLeft{
+    display: inline-block;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+    width: 55%;
+}
+.contentRight{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    border: 2px solid black;
+    text-align: center;
+    width: 30%;
+    margin-left: 25px;
+}
+#topNinja{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    height: 150px;
+}
+#bottomNinja{
+    border: 2px solid black;
+    margin-bottom: 20px;
+    height: 150px;
+}
+#defined{
+    /* border: 1px solid red; */
+    height: 175px;
+    
+}
+#topNinjaLeft{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 100px;
+    text-align: center;
+    height: 100%;
+}
+#topNinjaRight{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 175px;
+    text-align: center;
+    height: 75px;
+    vertical-align: top;
+    margin-top: 40px;
+
+}
+#bottomNinjaLeft{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 100px;
+    text-align: center;
+    /* margin-top: 40px; */
+    /* margin-left: 20px; */
+    height: 100%;
+}
+#bottomNinjaRight{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: 175px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 40px;
+}
+#likes{
+    background-color: rgb(255,217,102);
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    font-weight: bold;
+}
+#define{
+    background-color: rgb(147,196,125);
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+    font-weight: bold;
+}
+h1{
+    margin: 2px;
+    margin-top: 5px;
+}
+h3{margin: 2px;
+}
+p{
+    margin: 2px;
+}
